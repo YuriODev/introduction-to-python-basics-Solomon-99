@@ -3,4 +3,11 @@
 
 a = int(input())
 b = int(input())
-print(max(a, b))
+
+# print((a-b) > (b-a))
+
+max_value = (a + b + abs(a - b)) // 2 #abs = magnitude
+
+print(max_value)
+
+# print(max(a, b))
