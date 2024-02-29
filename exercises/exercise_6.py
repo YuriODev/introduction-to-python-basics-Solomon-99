@@ -1,5 +1,5 @@
-a = int(input('Enter a number'))
-b = int(input('Enter a number'))
+a = int(input())
+b = int(input())
 
 isDivisible = 'Yes' * (a % b == 0) or 'No'
 

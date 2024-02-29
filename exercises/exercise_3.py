@@ -7,4 +7,4 @@ def calc_Time(n):
       seconds = n % 60
       return f'{hours}:{minutes:02d}:{seconds:02d}'
 
-print(calc_Time(int(input('How many seconds have passed since midnight?'))))
+print(calc_Time(int(input())))
