@@ -1,9 +1,4 @@
-# Read the input
-a = int(input())
-b = int(input())
+a = int(input('Enter a number'))
+b = int(input('Enter a number'))
 
-# Check if a is divisible by b
-divisible = "YES" * (a % b == 0) or "NO"
-
-# Print the result
-print(divisible)
+print('Yes' * (a % b == 0) or 'No')
