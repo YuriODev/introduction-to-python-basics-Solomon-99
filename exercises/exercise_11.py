@@ -14,4 +14,4 @@ s %= 5
 
 bills1 = s
 
-print(f"{bills_500} (500), {bills_100} (100), {bills_10} (10), {bills_5} (5), {bills_1} (1)")
+print(f"{bills500} (500), {bills100} (100), {bills10} (10), {bills5} (5), {bills1} (1)")
