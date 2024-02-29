@@ -1,7 +1,9 @@
-# Exercise 6
-# Your solution comes here
+# Read the input
+a = int(input())
+b = int(input())
 
-a = int(input('Enter a number'))
-b = int(input('Enter a number'))
+# Check if a is divisible by b
+divisible = "YES" * (a % b == 0) or "NO"
 
-print('Yes' * (a % b == 0) or 'No')
+# Print the result
+print(divisible)
