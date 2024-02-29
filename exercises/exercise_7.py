@@ -1,4 +1,4 @@
-n = int(input('Enter a number: '))
+n = int(input())
 
 d1 = n // 1000
 d2 = (n % 1000) // 100
